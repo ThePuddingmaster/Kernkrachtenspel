@@ -308,6 +308,7 @@ public class MovePlayer : MonoBehaviour
 
     void BeginRound()
     {
+        choiceChain = "";
         DreamTile.gameObject.SetActive(true);
         DareTile.gameObject.SetActive(true);
         DoTile.gameObject.SetActive(true);
